@@ -27,6 +27,8 @@ export default async function handler(
         const data = await apiRes.json();
         res.status(200).json(data);
     } catch (error: unknown) {
-        res.status(500).json({ error: error.message || 'Ошибка сервера' });
+        const errMessage =
+            error instanceof Error ? error.message : 'Ошибка сервера';
+        res.status(500).json({ error: errMessage });
     }
 }
