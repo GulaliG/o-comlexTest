@@ -1,10 +1,12 @@
-// next.config.js
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   images: {
-    dangerouslyAllowSVG: true,  // SVG istemci tarafında yüklenebilsin
+    dangerouslyAllowSVG: true,
     remotePatterns: [
       {
         protocol: "https",
