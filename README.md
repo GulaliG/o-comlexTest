@@ -1,6 +1,7 @@
 # O‑Complex Test Assignment
 
 A fully‑featured **Next.js 15 / React 18** shop that matches the given Figma design, works on mobile, and talks to the provided REST API.
+deployment url: https://o-comlex-test.vercel.app/
 
 <p align="center">
   <img src="docs/screen-desktop.webp" width="650" alt="desktop screenshot"/>
