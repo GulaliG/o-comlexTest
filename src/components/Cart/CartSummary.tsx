@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useState, useEffect } from 'react';
+import React, { ChangeEvent, useState } from 'react';
 import { FiTrash2, FiCheck } from 'react-icons/fi';
 
 // +7 (999) 999-99-99 - длина 18 символов
